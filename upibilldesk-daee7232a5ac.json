@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "upibilldesk",
+  "private_key_id": "daee7232a5ac7e01d8fefc75950e330ea03c7ff1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIO2ZPVQBojDCN\nX+aaD685L3EdMu1O+qtwpJvxmJeOVw8Lilpvn6SVG7nUtN5E2LKhUGy0ONDYTQM+\ncUf/yIOKSSof+SywtBXhbjV7zgXPOwiIBF3xa9CVjwHyL8q2ewJPDUa8yM9p/91Q\nAKH0BGEfKOByW8mX96YSJ91K1DOxDswgbgqMncLyhyWYXO/87Bm4tqulJOj7XPQy\no5QgbSdFQqLtb3RTI8mZ44vtr+QHt78dp/E6IdRsu4tDdr2M/lwmD9/nTsO3Dcno\nhM6hSnmaYgwi35zUtGCGP0Eb1zZJeOnux+ajLeD3UX0pecbJvwyqJ6WSHEk16E61\nTl+jRQitAgMBAAECggEACnrBYgmK2e3sZJnOUeXcP9vxyZtuvCF2c5DJ8J0R4YtA\n6FO3Y/ww+vTWhwFoWKYWw0aYSd5nX8q4Dr6TDBoMeGJX6BB8fEsQkhnYhsBDoZLv\nYV8JI6eG5Sz05x4FOAO8HTMOrra71Epl5NgDoefQxXa4OIQBSwjVEkIv3Mi6Y9vQ\ns7UxFKy/cI5K3tbHSGf32AyNGCugM0PndGNDBMXiIIZw4Mb3kYiDw+7gxCleUV/q\ngEOEC2aEJ3l2XSuFOTmfx14vi38cG0w/Vqf1Fp8lw1gOCEvFI/h02K2jNYjjX1l5\nV1Fo5QREAmYi07o4LMYWElxdbR4E3WcR7DZGIrhZAQKBgQDlU6v3tOUAgjp7+YwC\nGS6n997kQM9rl6uHXISbCbUi1mdB9e6hy2lN2yu+xoXAUBC6Fpi8JUmysvcPntLx\n4b4CAlD5NJSN1Tx06eVHeVRiZ3Zs/7jrv+5zjIRWOU0drp51/lS4pfS9Ei8ynECg\n+gDHF/s966jsMosLfYxISTqAIQKBgQDfhWoYE73Tge72j1FxTx8ywnST1uug/6xy\nCgONKcIZv5H7XxvjqLYOvl8VBipm+7PdwX9vrTVPZz/LAheZwbphh3YjU3GLiIby\njrjsUZcgHlWmkx6GHERMIDS7LhA5INXsV4pNAXcpEeeJQXb0B7NP1luXKDVqygyO\npz/AZtenDQKBgQCNgewDleQZRELCbWIviUp460LmpfdX9OcrR7Or13mmXZap5Q+z\nVslL+Yos1mOCH+Wybm8g6gFn+3bodKDGEP4mTzeYDxH70zDTE+EfEYc4kY9KAyIg\nlvaU5ohijElBn5a4SJAOwJkccjQdjr1yl9ITCIFH3DsIRMf39yixEj6/AQKBgQCd\nzVbFgMp3VDgcobnhwPZJo7ch2I2psFdSe3deZai+/NxXFyJda3J8njIKabvt0K1/\nVWhes237jO0gqW14A6lNyZDCB9sVo2GCRPiQ/lkvN7tISn02OSaOh/4yV6bkbiYZ\nIQRmsS4rNJS99hXA2t7g8njfEmgD6HlNDQ6ZCwIc0QKBgGajsY9oh4VuWpGwc087\nYwmTAHLBFfpDcVaf6hxahRJzExuYowIfbozbqGeTK12s9gUHgLb9IwBPwPHdj8vz\nch3Com9UevNGenXEXrv8VsIUDFMUnu920ICWfkxVbmq7lp0f4TEPT4O+h1vRq1vj\nGzN3uuo7xNyhBoMlNR/HCI6f\n-----END PRIVATE KEY-----\n",
+  "client_email": "jay-prajapati@upibilldesk.iam.gserviceaccount.com",
+  "client_id": "114064671640443172500",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jay-prajapati%40upibilldesk.iam.gserviceaccount.com"
+}

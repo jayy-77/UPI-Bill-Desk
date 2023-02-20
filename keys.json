@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "upi-bill-desk",
+  "private_key_id": "fd46e9c10cbd4abf4a5e3b1b62e26528d3d0f067",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/kgeFyRl1Dm2j\n57Ya5tKoWtgDr/8XPaYGQvf97F1OX6wvmg6f8IvgnwgjyaLJysGknR7TDsm7LV9J\nrQ5DtlHloWQksTuvK62uCIgk69w5Jf01BKzzQCRbYuTpIGTlthAhLbStbUaast0e\nwrIYtPdDWVUymXnCN4GI+/wB6kJyLRmN1YYHETAvgVd8zLr0TaP69MRsHTKInJkI\nYHhmiVBMlTZLsz43uLK9UwA6hi0A70fG4933va88S0+VYKeAw9JapSfhkxwIRwHK\nA4aPlrCm5iDyO13eZIXXIJQlKJNCE2IeoC4z4Z3Z/HtMhrPIHKOg2pNgB2lNhLwr\n3lMWChadAgMBAAECggEAAKj+U/nb7Rkrdoz2BdoKxXVpWNCSm/Vkl5FD19ZTLKch\naZk/I1JJtnCbL2hiomMLpMdn056xl5lcl9079y7EfHqVukH5bIKa2saBFZjRzZ6c\nZJeLXbE4ZC+POLXEXehGiPQRMycfvv5jywHXvu8MtROJ5XPoRVY59jYMFG5GuVb9\n6ZCSWVLlG3fheI479dYjBfm8+nb+1wtDJv32le9LjGYa1ExyqZdVYXZWyBnqFbHJ\nV69oSh1AeVntjLa62lJlihSxLA/ppybEsJPQfYHfcKItRrd7nfXMENhFOE1QxuYx\nr41T+eQjbxrUnsrPjcX44b6EQRHSEoLZ8kH/RZ+TgQKBgQDzjjqz6ksfHJBl+BLi\nNhC6fAfcaNLajj7gMywNqnucGChZG/yBu4GQ1ihstB9dtZMjYt05Esd+PVOE0u//\nfgs+xnYfuxq4rydHnexgCH5y1XyBwXUqQ9TB/D0XMBwfeH8W8GEucERGNsjruqry\n6BiKwgurXGI3g+IUn7RhVtMWQQKBgQDJW9IWDoQ1UIu+9Rh7hUKMyvTkwoRgn8Cw\nCus2hEPyJJIDda53q6QtSAb4Str60FLXt6Cmkfl99mNnyd6JuSIoGnB+Idb8r747\nAiStP3TgesAQq0jwyYN0iFKxxogcouGonGBoXym5+7LVVar+v631S47cZErp/wAI\nuQEaCpTBXQKBgCdtIcGYLtr1c8ad9uiZmfGmPFuIuIFav4Dpp7r6mxH0sythpWmW\n4e2BTX/zVJSF3TDAQ1GG4bZk1Q1OXD1+uPFLjTmrvzKgX/pu7SHKnjWWq5YRrBbQ\nbjOM0pLbXeIWTnR3KzQqRlMbcUD/scaqnbZwnRT7WobkGYf/JmMPfBJBAoGAaOfN\nrHAjsSMlq3dGKhRjd7bFn+k3zp9sZEtMADsoqx8ic2r8WpyyDGVaPEHDlKi0gG7K\n4/1pXpbfc1NY/afWg85CjXRT7ZIiKdwT/67v1YQeTJDwj4JtWmkrrDMi9shliNLv\n53Cs7JiVs0/Opqp2lzWmWGxoG0EfY2v/hvG8ToECgYAiuVCsbr5SN74zncPqDE/+\nCc/enhr6zUnVs1cYkMtULMe+gU7PJPXey7nmkOuPSpjuPDmFw80B+YLs7bAckDi9\ncPAl+x4+6GFMdy24yRsZsH/scvHOs5Trs7Cfpdw4mg4r2V1Uz1ukcJwinVkmYQxz\nWzVlWu61k+ijrrsID53Sig==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-a7yus@upi-bill-desk.iam.gserviceaccount.com",
+  "client_id": "101763490503884862736",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-a7yus%40upi-bill-desk.iam.gserviceaccount.com"
+}

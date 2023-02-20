@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649940017313",
+    "project_id": "upi-bill-desk",
+    "storage_bucket": "upi-bill-desk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649940017313:android:d10a51b93f6467e64450e0",
+        "android_client_info": {
+          "package_name": "com.example.upi_bill_desk_qr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649940017313-1tgje2nae5bm2uclmijsioeopf70dpaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK0z_UDvkoazSb03dJ7kwUVxwn7MZj_mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649940017313-1tgje2nae5bm2uclmijsioeopf70dpaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

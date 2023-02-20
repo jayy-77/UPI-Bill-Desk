@@ -20,12 +20,14 @@ def make_upi_qr(amount):
     }
     upi_deep_link = "upi://pay" + '?' + urllib.parse.urlencode(payment_dict)
     img = qrcode.make(upi_deep_link)
-    img.save('upi.png')
+    img_name = "{}.png".format(str(security_code))
+    img.save(img_name)
     print("Security Code: ",security_code)
-    store_qr_data(amount)
-def store_qr_data(amount):
+    store_qr_data(amount,security_code)
+def store_qr_data(amount,img_name):
     bucket = storage.bucket()
-    blob = bucket.blob('upi.png')
-    blob.upload_from_filename('upi.png')
-    db.collection("qr_data").document("reliance").update({'upi_url':blob.public_url,'amount':amount})
-    os.remove('upi.png')
+    blob = bucket.blob(img_name)
+    blob.upload_from_filename(img_name)
+    blob.make_public()
+    db.collection("qr_data").document("reliance").update({'upi_url':str(blob.public_url),'amount':amount})
+    os.remove(img_name)

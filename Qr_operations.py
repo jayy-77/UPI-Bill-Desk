@@ -23,7 +23,7 @@ def make_upi_qr(amount):
     img_name = "{}.png".format(str(security_code))
     img.save(img_name)
     print("Security Code: ",security_code)
-    store_qr_data(amount,security_code)
+    store_qr_data(amount,img_name)
 def store_qr_data(amount,img_name):
     bucket = storage.bucket()
     blob = bucket.blob(img_name)

@@ -9,9 +9,9 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
 		"https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name("upibilldesk-daee7232a5ac.json", scope)
 client = gspread.authorize(creds)
-sheet = client.open("upi_bill_desk_data").sheet1
 
-data_table = PrettyTable(['Index','Name','Price'])
+sheet = client.open("upi_bill_desk_data").sheet1
+data_table = PrettyTable(['Index','Name','Price','Quantity'])
 procduct_data_dict = sheet.get_all_records()
 local_product_data = {
     'index':[],
@@ -19,15 +19,18 @@ local_product_data = {
     'price':[],
     'quantity':[]
 }
+
 for i in procduct_data_dict:
     local_product_data['index'].append(i['index'])
     local_product_data['product'].append(i['product'])
     local_product_data['price'].append(i['price'])
     local_product_data['quantity'].append(i['quantity'])
-    data_table.add_row([i['index'],i['product'],[i['price']]])
+    data_table.add_row([i['index'],i['product'],[i['price']],i['quantity']])
 print(data_table)
+
 choice = None
 bill_amount = 0
+
 while True:
     product_choice = input("Index <space> Quantity: ")
     iq_lst = product_choice.split()
@@ -40,4 +43,4 @@ while True:
             print("Insuffiecient stock")
     else:
         Qr_operations.make_upi_qr(bill_amount)
-        break
+        bill_amount = 0

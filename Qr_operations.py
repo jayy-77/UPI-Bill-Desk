@@ -20,7 +20,7 @@ def make_upi_qr(amount):
     }
     upi_deep_link = "upi://pay" + '?' + urllib.parse.urlencode(payment_dict)
     img = qrcode.make(upi_deep_link)
-    img_name = "{}.png".format(str(security_code))
+    img_name = "qr.png"
     img.save(img_name)
     print("Security Code: ",security_code)
     store_qr_data(amount,img_name)
